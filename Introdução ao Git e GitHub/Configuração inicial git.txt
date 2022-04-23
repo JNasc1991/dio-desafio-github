@@ -1,0 +1,71 @@
+Microsoft Windows [versão 10.0.19042.1288]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\jhona>cd C:/Projects
+
+C:\Projects>git clone https://jnasc1991@bitbucket.org/ismaellpires/site_smart_code_cursos.git
+Cloning into 'site_smart_code_cursos'...
+remote: Enumerating objects: 313, done.
+remote: Counting objects: 100% (313/313), done.
+remote: Compressing objects: 100% (304/304), done.
+remote: Total 313 (delta 113), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (313/313), 20.84 MiB | 158.00 KiB/s, done.
+Resolving deltas: 100% (113/113), done.
+
+C:\Projects>git config --global user.name "Jhonathan Nascimento"
+
+C:\Projects>git config --global user.email "jhonathan@exactcode.com.br"
+
+C:\Projects>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Projects>dir
+ O volume na unidade C é Windows-SSD
+ O Número de Série do Volume é 64D2-6B19
+
+ Pasta de C:\Projects
+
+12/11/2021  21:16    <DIR>          .
+12/11/2021  21:16    <DIR>          ..
+12/11/2021  21:20    <DIR>          site_smart_code_cursos
+               0 arquivo(s)              0 bytes
+               3 pasta(s)   15.713.288.192 bytes disponíveis
+
+C:\Projects>cd site_smart_code_cursos
+
+C:\Projects\site_smart_code_cursos>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Projects\site_smart_code_cursos>git flow init
+
+Which branch should be used for bringing forth production releases?
+   - master
+Branch name for production releases: [master]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [C:/Projects/site_smart_code_cursos/.git/hooks]
+
+C:\Projects\site_smart_code_cursos>git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+nothing to commit, working tree clean
+
+C:\Projects\site_smart_code_cursos>git branch
+* develop
+  master
+
+C:\Projects\site_smart_code_cursos>
+
+
+Token Github: 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

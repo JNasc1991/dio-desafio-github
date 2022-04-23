@@ -1,0 +1,12 @@
+Comando Hotfix
+//Criar uma branch de desenvolvimento de uma determinada tarefa
+ex.:
+git flow hotfix start "implementar-sessao-sobre"
+
+
+
+Comando para finalizar, após homologação:
+
+git flow hotfix finish 'implementar-sessao-sobre'
+
+Colocar a mensagem "finish hotfix" no arquivo aberto após finalizar
